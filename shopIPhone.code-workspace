@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "shopIPhone",
+			"path": "."
+		},
+		{
+			"name": "public",
+			"path": "../../Downloads/public"
+		}
+	],
+	"settings": {}
+}
