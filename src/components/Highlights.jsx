@@ -2,6 +2,7 @@ import React from 'react';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import {watchImg ,rightImg } from '../utils/index';
+import VideoCarousel from './VideoCarousel';
 
 const Highlights = () => {
   useGSAP(()=> {
@@ -25,7 +26,8 @@ const Highlights = () => {
               </p>
           </div>
         </div>
-        {/* creating a video carousal here below */}
+        {/*creating a video carousal*/}
+        <VideoCarousel/>
       </div>
 
     </section>
